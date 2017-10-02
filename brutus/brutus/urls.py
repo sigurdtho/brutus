@@ -19,4 +19,5 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^liveupdates/', include('liveupdates.urls')),
+    url(r'^$', include('liveupdates.urls')),
 ]
