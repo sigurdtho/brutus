@@ -2,10 +2,20 @@
 
 {% block content %}
 
-<div class="jumbotron">
-  <h1>Hello, world!</h1>
-  <p>...</p>
-  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+<div class="container">
+  <div class="row">
+    <div class="col-md-8 col-lg-8">
+      {% include "liveupdates/includes/videofeed.html" %}
+    </div>
+    <div class="col-md-4 col-lg-4">
+      {% include "liveupdates/includes/log.html" %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      {% include "liveupdates/includes/graphs.html" %}
+    </div>
+  </div>
 </div>
 
 {% endblock %}
