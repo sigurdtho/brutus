@@ -2,4 +2,4 @@
 *.swp
 *.swo
 *.pyc
-
+*.sqlite3
