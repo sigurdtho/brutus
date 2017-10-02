@@ -1,7 +1,7 @@
-#Office project!
-###Sigurd, Camilla, Emil, Simon, Chris-the-wiz
+# Office project!
+### Sigurd, Camilla, Emil, Simon, Chris-the-wiz
 
-##Idea
+## Idea
 We have a plant in our office. This plant like every other plant needs water.
 To keep track of when we need to water this behemoth, we have installed a
 moisture sensor. This sensor is hooked up to a raspberry pi, which shows us
@@ -12,9 +12,9 @@ plant through a live video feed, and write stuff in a blog like environment.
 
 That is why we have created this repository.
 
-##Goal
+## Goal
 Create a smooth django web-page with livefeed and blog and all you could want.
 
-##Specs
+## Specs
 - We use sqlite because postgre is too tryhard.
 
