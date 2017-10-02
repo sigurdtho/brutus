@@ -17,4 +17,4 @@ Create a smooth django web-page with livefeed and blog and all you could want.
 
 ## Specs
 - We use sqlite because postgre is too tryhard.
-
+- Django version 1.11
